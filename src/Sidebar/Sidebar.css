@@ -1,0 +1,76 @@
+.SidebarContainer{
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+}
+
+.isCollapsed{
+    left: -250px;
+}
+
+.ButtonContainer {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    left: 250px;
+    z-index: 1;
+}
+
+.buttonIsCollapsed {
+    left: 0px;
+}
+
+.MenuToggleButton{
+    background-color: #008000;
+    opacity: 75%;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    width: 50px;
+    border: none;
+}
+
+.MenuToggleButton:hover{
+    opacity: 100%;
+}
+
+.MenuContainer{
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    background-color: black;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    margin: 0;
+}
+
+li {
+    display: block;
+    border-bottom: 1px solid gray;
+}
+
+li:hover{
+    background: rgba(255, 255, 255, 15%);
+}
+
+
+
+li a {
+    display: inline-block;
+    padding: 1rem 0 1rem 0;
+    text-decoration: none;
+    color: lightgray;
+    width: 100%;
+    height: 100%;
+}
+
+li:hover a{
+    color: white;
+}

@@ -1,0 +1,102 @@
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #ffffff;
+    /* background by SVGBackgrounds.com */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2393867f' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23008000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23a8817e' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23007c4f' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23b77b8e' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2300737a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b57bae' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2300678b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%239485d4' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%231b5781' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232196f3' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%234b4a67' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.loginContainer{
+    height: fit-content;
+    padding: 1em;
+    box-shadow: 2px 2px 3px lightgray;
+    border-radius: .25em;
+    border: 1px solid lightgray;
+    width: 25%;
+    min-width: 300px;
+    background-color: #FFFFFF;
+}
+
+h2{
+    font-size: xx-large;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.loginForm {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.invalidCreds {
+    border: 1px solid lightcoral;
+    background-color: lightpink;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    color: crimson;
+    font-size: 15px;
+    border-radius: .2em;
+    box-sizing: border-box;
+}
+
+.loginUsername{
+    background-color: #F2F2F2;
+    padding: .5em;
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: .5em;
+}
+.loginPassword{
+    background-color: #F2F2F2;
+    padding: .5em;
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: .5em;
+}
+
+.forgotPassword {
+    color: gray;
+    text-align: right;
+    font-size: 10px;
+    width: 100%;
+}
+
+.submitButton {
+    padding:0.35em 1.2em;
+    border:0.1em none #FFFFFF;
+    margin:0.3em 0 0.3em 0;
+    border-radius:0.2em;
+    text-decoration:none;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    opacity: 0.75;
+    width: 100%;
+    background-color: #2196F3;;
+}
+
+.submitButton:hover {
+    opacity: 1.0;
+}
+.signUpLink {
+    background-color: transparent;
+    display: inline;
+}
+
+.signUpLinkContainer {
+    font-size: 10px;
+    margin-top: 1em;
+}
